@@ -1,0 +1,77 @@
+{
+  "parent": "obamiummod:smelt_obamium",
+  "criteria": {
+    "obamium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obamium_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obamium_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obamium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obamium_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.obamiummod.obamium_tools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "obamiummod:obamium_sword"
+    },
+    "title": {
+      "translate": "advancements.obamiummod.obamium_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "obamium_sword",
+      "obamium_axe",
+      "obamium_shovel",
+      "obamium_pickaxe",
+      "obamium_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

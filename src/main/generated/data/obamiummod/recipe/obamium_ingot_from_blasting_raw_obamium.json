@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "obamium_ingot",
+  "ingredient": {
+    "item": "obamiummod:raw_obamium"
+  },
+  "result": {
+    "id": "obamiummod:obamium_ingot"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obamium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.obamiummod.smelt_obamium.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "obamiummod:obamium_ingot"
+    },
+    "title": {
+      "translate": "advancements.obamiummod.smelt_obamium.title"
+    },
+    "background": "obamiummod:textures/block/raw_obamium_block.png",
+    "background": "obamiummod:textures/gui/advancements/backgrounds/raw_obamium_block.png"
+  },
+  "requirements": [
+    [
+      "obamium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obamium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "obamiummod:obamium_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obamium_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "obamiummod:obamium_pickaxe"
+    ]
+  }
+}

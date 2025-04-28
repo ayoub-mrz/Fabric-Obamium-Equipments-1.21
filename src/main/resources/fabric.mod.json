@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "obamiummod",
+	"version": "${version}",
+	"name": "Obamium Mod",
+	"description": "A Mod That Add Obamium Equipments!",
+	"authors": [
+		"AyoubMrz!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/ayoub-mrz/Fabric-Obamium-Equipments-1.21.1"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/obamiummod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ayoubmrz.obamiummod.ObamiumMod"
+		],
+		"fabric-datagen": [
+			"net.ayoubmrz.obamiummod.ObamiumModDataGenerator"
+		],
+		"client": [
+			"net.ayoubmrz.obamiummod.ObamiumModClient"
+		]
+	},
+	"mixins": [
+		"obamiummod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

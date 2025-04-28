@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obamium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "obamiummod:obamium_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obamium_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "obamiummod:obamium_sword"
+    ]
+  }
+}

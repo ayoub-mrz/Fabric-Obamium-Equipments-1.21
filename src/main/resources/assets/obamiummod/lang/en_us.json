@@ -1,0 +1,33 @@
+{
+  "item.obamiummod.obamium_ingot": "Obamium Ingot",
+  "item.obamiummod.raw_obamium": "Raw Obamium",
+
+  "item.obamiummod.obamium_sword": "Obamium Sword",
+  "item.obamiummod.obamium_pickaxe": "Obamium Pickaxe",
+  "item.obamiummod.obamium_shovel": "Obamium Shovel",
+  "item.obamiummod.obamium_axe": "Obamium Axe",
+  "item.obamiummod.obamium_hoe": "Obamium Hoe",
+
+  "item.obamiummod.obamium_helmet": "Obamium Helmet",
+  "item.obamiummod.obamium_chestplate": "Obamium Chestplate",
+  "item.obamiummod.obamium_leggings": "Obamium Leggings",
+  "item.obamiummod.obamium_boots": "Obamium Boots",
+
+  "item.obamiummod.obamium_horse_armor": "Obamium Horse Armor",
+
+  "block.obamiummod.obamium_block": "Obamium Block",
+  "block.obamiummod.raw_obamium_block": "Raw Obamium BLock",
+  "block.obamiummod.obamium_ore": "Obamium Ore",
+  "block.obamiummod.obamium_deepslate_ore": "Obamium Deepslate Ore",
+
+  "itemgroup.obamiummod.obamium_equipments": "Obamium Equipments",
+
+  "advancements.obamiummod.smelt_obamium.title": "Yes We Can... Mine This!",
+  "advancements.obamiummod.smelt_obamium.description": "Change has come to your inventory.",
+
+  "advancements.obamiummod.obamium_tools.title": "The Obamium Doctrine",
+  "advancements.obamiummod.obamium_tools.description": "With great power comes great responsibility.",
+
+  "advancements.obamiummod.obamium_armor.title": "The Oval Office Suit",
+  "advancements.obamiummod.obamium_armor.description": "Now resistant to 100% of fake news and 57% of damage."
+}

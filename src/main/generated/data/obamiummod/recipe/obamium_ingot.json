@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "obamiummod:obamium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "obamiummod:obamium_ingot"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "obamiummod:obamium_tools",
+  "criteria": {
+    "obamium_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "obamiummod:obamium_helmet"
+          },
+          {
+            "items": "obamiummod:obamium_chestplate"
+          },
+          {
+            "items": "obamiummod:obamium_leggings"
+          },
+          {
+            "items": "obamiummod:obamium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.obamiummod.obamium_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "obamiummod:obamium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.obamiummod.obamium_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "obamium_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
