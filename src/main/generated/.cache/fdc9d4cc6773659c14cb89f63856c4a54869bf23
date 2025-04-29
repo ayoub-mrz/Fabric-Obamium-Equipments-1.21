@@ -1,4 +1,4 @@
-// 1.21	2025-04-28T14:29:08.7545068	Obamium Mod/Recipes
+// 1.21	2025-04-29T10:42:17.9491519	Obamium Mod/Recipes
 fe97c2273040c3c6eec3355300cb9ba00e3427a9 data\obamiummod\advancement\recipes\misc\obamium_axe.json
 96a52bdce6a78d6cff788f606cdfe276a7c44b06 data\obamiummod\advancement\recipes\misc\obamium_hoe.json
 92ea8a4c11e1fb571e329203dcbbfe82fbaf7b16 data\obamiummod\advancement\recipes\misc\obamium_boots.json
@@ -17,8 +17,8 @@ ecf22823d164dae40f71e5bd835c2718659607e7 data\obamiummod\advancement\recipes\mis
 f74b67e790008b41dff8c7f1203af22836a2c392 data\obamiummod\recipe\raw_obamium_block.json
 4f1f3a4bf88936454d1b81c3f49d1d6199c6da48 data\obamiummod\advancement\recipes\misc\obamium_ingot_from_smelting_obamium_deepslate_ore.json
 0e22e359ed7238b0afddb46c6bf834f932c1f32a data\obamiummod\recipe\raw_obamium.json
-0f2706094df1789f25b8975a401b2d0e518dd734 data\obamiummod\recipe\obamium_ingot_from_blasting_obamium_ore.json
 36cb624d50f9a41e6d69435fb4b832dcd5a8b58c data\obamiummod\advancement\recipes\building_blocks\obamium_ingot.json
+0f2706094df1789f25b8975a401b2d0e518dd734 data\obamiummod\recipe\obamium_ingot_from_blasting_obamium_ore.json
 962cb94a6ba50bc5973fea4047c6c68c1b87dffe data\obamiummod\recipe\obamium_helmet.json
 aa410e88b1e9fe8353d3d2bd8ec8f0110f983d86 data\obamiummod\recipe\obamium_ingot.json
 79bc33853c1039169575cbab170c26049d0f6f70 data\obamiummod\recipe\obamium_ingot_from_smelting_obamium_ore.json

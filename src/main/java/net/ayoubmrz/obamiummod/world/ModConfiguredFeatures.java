@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.OBAMIUM_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.OBAMIUM_DEEPSLATE_ORE.getDefaultState()));
 
-        register(context, OBAMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldObamiumOres, 3));
+        register(context, OBAMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldObamiumOres, 4));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -23,8 +23,8 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, OBAMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OBAMIUM_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(5))));
+                ModOrePlacement.modifiersWithCount(3,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(-15))));
 
     }
 
